@@ -1,3 +1,17 @@
+# Here's how we want our game to run:
+
+# 1. Welcome the user
+# 2. Deal them their first two cards, i.e. their `initial_round`
+# 3. Ask them if they want to hit or stay
+# 4. If they want to stay, ask them again!
+# 5. If they want to hit, deal another card and display the new total
+# 6. If their card total exceeds 21, the game ends.
+
+# Use a loop constructor (I'd recommend `until`, but that is by no means your only
+# option) to enact the above gameplay in the `runner` method. Then, check out the
+# `lib/runner.rb` file. Notice that it is simply calling the `runner` method. The
+# runner file will call the `runner` method which should, in turn, utilize all the
+# other methods you built!
 
 
 
